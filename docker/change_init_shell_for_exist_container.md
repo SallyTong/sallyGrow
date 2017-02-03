@@ -10,20 +10,7 @@ docker@default:~$ docker ps -a
 CONTAINER ID        IMAGE                                                         COMMAND             CREATED             STATUS   PORTS          NAMES
 8b3e135d54ea        cnshdocker.sh.cn.ao.ericsson.se/bolte/bmc-postgresql:latest   "bash initdb"    5 days ago          Exited (0) 10 minutes ago   postgresql
 2.	Because initdb can’t run successfully twice. So we need to replace initdb file. Prepare initdbNew file, the content as below:
-#!/bin/bash
-
-set -e
-
-# use docker exec instead of sshd service
-#echo "start sshd"
-#/etc/init.d/sshd start
-
-service sshd start
-
-# Start PostgreSQL
-echo "PostgreSQL... is initialized to new place $PGDATA"
-echo "Starting postgresql in background"
-su postgres -c '/usr/pgsql-9.3/bin/postgres -D $PGDATA'
+   .....
 3.	Copy initdbNew to postgresql container
    $ docker cp initdbNew postgresql:initdbNew
 
