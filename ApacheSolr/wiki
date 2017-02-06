@@ -1,0 +1,27 @@
+Introduction 
+Apache Solr (http://lucene.apache.org/solr/ ) is a open source enterprise search platform from the Apache Lucene project. 
+Environment and Material 
+•	Getting started with Solr(PPT) 
+•	Java 1.5 or greater
+•	Firefox browser & Poster Extensions
+•	A Solr release: http://apache.mirrors.pair.com/lucene/solr/3.6.1/apache-solr-3.6.1.zip
+Author 
+•	Sally Tong 
+Duration 
+•	1.5 hours (always) 
+Target Group 
+•	people who is interested in search platform. 
+Main Steps 
+•	Introduction 
+•	Exercise 1: install apache solr
+•	Exercise 2: Feed data 
+•	Exercise 3: Querying data
+•	Exercise 4: Querying data Facet
+•	Summary
+Reference 
+•	http://lucene.apache.org/solr/
+•	http://lucene.apache.org/solr/api-3_6_1/doc-files/tutorial.html
+•	http://lucene.apache.org/solr/books.html
+
+
+
