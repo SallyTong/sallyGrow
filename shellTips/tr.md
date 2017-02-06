@@ -4,7 +4,6 @@ Question:
    just print portal-root-war,ignore ott-portal-root-war
  
 Answer:
-
    echo portal-root-war ott-portal-root-war| tr ' ' '\n'|grep ^portal-root-war
 
 tr --help
